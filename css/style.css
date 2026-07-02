@@ -15,9 +15,10 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
     border: 2px dotted greenyellow;
 }
-
 
 .contener-logo{
     grid-row: 1/3;
@@ -155,17 +156,18 @@
 
 .main-contenair{
     display: grid;
-    grid-template-columns: 1f;
+    grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     padding: 10px;
+    border: 2px solid rgb(150, 12, 192);
 }
 
 
 .article-contenair{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr ;
     gap: 10px;
     padding: 10px;
     border: 2px solid rgb(245, 4, 16);
@@ -177,3 +179,12 @@
     color: red;
 
 }
+
+.footer-contenair{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid rgb(0, 0, 0);
+}   
